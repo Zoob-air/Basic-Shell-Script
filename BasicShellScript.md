@@ -35,6 +35,10 @@ date +"%b %Y" | tr '[:lower:]' '[:upper:]'
 ```
 - date +"%b %Y" : Menampilkan bulan dalam format singkat dan tahun (misalnya, Sep 2024).
 - tr '[:lower:]' '[:upper:]' : Mengubah semua huruf kecil menjadi huruf besar.
+#### Killing Oracle Process
+```
+ps -ef | grep LOCAL=NO | awk '{print$2}' | xargs kill -9
+```
 
 ***
 
