@@ -39,6 +39,17 @@ date +"%b %Y" | tr '[:lower:]' '[:upper:]'
 ```
 ps -ef | grep LOCAL=NO | awk '{print$2}' | xargs kill -9
 ```
-
+#### Looping Command in Linux
+```
+while true; do df -kh; sleep 1; done
+```
+#### Looping Command in Solaris
+```
+while du -sh; do sleep 1; done
+```
+#### Looping Command Using Watch
+```
+watch du -sh
+```
 ***
 
