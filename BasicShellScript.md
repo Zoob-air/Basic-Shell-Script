@@ -1,5 +1,6 @@
 # **Basic Bash Script**
 ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+[![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://github.com/Zoob-air/Basic-Shell-Script/blob/main/BasicShellScript.md)
 ### Get CurrentDate
 #### (Wed Sep  4 15:05:32 WIB 2024)
 ```
